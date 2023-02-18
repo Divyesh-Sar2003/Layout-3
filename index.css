@@ -46,6 +46,7 @@ header{
 .sixth_column{/*sixth column css*/
     margin-right: 15px;
     padding-top: 20px; 
+    background-color: skyblue;
 }
 .seventh_column{
     padding-left: 40px;
@@ -56,7 +57,7 @@ header{
 .h-6{margin-top: -10px;}
 .h-5_address{padding-right: 30px;}
 .p_phoneno{font-size: 15px;padding-right: 30px ; margin-top: -5px;}
-.main_add{color: white;font-size: ;}
+.main_add{color: white;font-size: 2;}
 .head_hr{
     margin-left: 3px;
     background-color: aqua;
@@ -74,28 +75,37 @@ ul{
 .h-3_text{
     margin-top: -20px;
 }
-.fourth_column_address{
-    
-}
+
 /*header css end*/
 
 /*section css start*/
 .h-1_first{color: rgb(224, 69, 69);}
-.fifth_column{text-align: ;}
-.sixth_column{
-    background-color: skyblue;
-}
+
 .coded_logo{
     align-items: center;
     padding: 10px;
 }
-.coded_img{margin-left: 110px;}
+.coded_img{margin-left: 80px;}
 .h-4_coded{padding-top: 32px;font-weight: 900; color: white;}
 .logo_content{font-size:5px; font-weight: 200;}
-.h-4_our_company{
-    color: brown;
-}
+.h-4_our_company{ color: brown;}
+.h-3_coded{font-weight: 600;}
 .hr_footer{
     background-color: brown;
     height: 6px;
 }
+.first_paragraph{
+    width: 700px;
+}
+.second_paragraph{width: 700px;}
+.h-1_second{color:rgb(76, 198, 247); margin-left: 90px;}
+.h-3_end{margin-left: 90px;}
+.trophy_img{
+    margin-left:146px;
+    margin-bottom: -50px;
+}
+.h-5_earn{
+    text-align: right;
+    margin-right: 94px;
+}
+.lorem{width: 300px;text-align: right;}
