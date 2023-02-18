@@ -1,4 +1,51 @@
+/*common css srart*/
 *{
-    margin: 0px;
+   margin: 0px;
     padding: 0px;
+}
+/*common css end*/
+/*header css srart*/
+header{
+    font-size: xx-large;
+    color: white;
+}
+.img_main{
+    width: 100%;
+    height: 536px;
+    position: absolute;
+}
+.h-2{
+    margin-top: -25px;
+    font-weight: 900;
+}
+.h-4{margin-top: -20px;}
+.h-6{margin-top: -18px;}
+.head_hr{
+    margin-left: 3px;
+    background-color: aqua;
+    width: 30px;
+    height: 6px;
+}
+ul{
+    list-style: square;
+    color: aliceblue;
+    padding-left: 80px;
+}
+.third_column_learn{
+    text-align: center;
+
+}
+.h-1_text{font-weight: 800;}
+.h-3_text{
+    margin-top: -20px;
+}
+.fourth_column_address{
+    
+}
+/*header css end*/
+/*section css start*/
+.h-1_first{color: red;}
+.fifth_column{text-align: ;}
+.sixth_column{
+    background-color: skyblue;
 }
