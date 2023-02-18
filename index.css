@@ -11,29 +11,64 @@ header{
 }
 .img_main{
     width: 100%;
-    height: 536px;
+    height: 545px;
     position: absolute;
 }
 .h-2{
     margin-top: -25px;
     font-weight: 900;
 }
-.h-4{margin-top: -20px;}
-.h-6{margin-top: -18px;}
+.first_column{/*first column css*/
+    padding-left: 40px;
+    background-color: rgba(26, 25, 25, 0.438);
+    margin-bottom: 170px;
+}
+.second_column{/*second column css*/
+    background-color: rgba(255, 255, 255, 0);
+    margin-right: 50px;
+    padding-right: 40px;
+}
+.third_column{/*third column css*/
+    background-color: rgba(255, 255, 4, 0.534);
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.fourth_column{/*fourth column css*/
+    background-color: rgba(0, 0, 0, 0.425);
+    text-align: right;
+    margin-right: 16px;
+    padding-top: 20px;
+}
+.fifth_column{/*fifth column css*/
+    padding-left: 40px;
+    padding-top: 20px;   
+}
+.sixth_column{/*sixth column css*/
+    margin-right: 15px;
+    padding-top: 20px; 
+}
+.seventh_column{
+    padding-left: 40px;
+    padding-top: 20px; 
+    background-color:rgba(0, 0, 0, 0.027);   
+}
+.h-5{margin-top: -15px;}
+.h-6{margin-top: -10px;}
+.h-5_address{padding-right: 30px;}
+.p_phoneno{font-size: 15px;padding-right: 30px ; margin-top: -5px;}
+.main_add{color: white;font-size: ;}
 .head_hr{
     margin-left: 3px;
     background-color: aqua;
-    width: 30px;
+    width: 26px;
     height: 6px;
 }
 ul{
+    direction: rtl;
+    text-align: right;
     list-style: square;
     color: aliceblue;
     padding-left: 80px;
-}
-.third_column_learn{
-    text-align: center;
-
 }
 .h-1_text{font-weight: 800;}
 .h-3_text{
@@ -43,9 +78,24 @@ ul{
     
 }
 /*header css end*/
+
 /*section css start*/
-.h-1_first{color: red;}
+.h-1_first{color: rgb(224, 69, 69);}
 .fifth_column{text-align: ;}
 .sixth_column{
     background-color: skyblue;
+}
+.coded_logo{
+    align-items: center;
+    padding: 10px;
+}
+.coded_img{margin-left: 110px;}
+.h-4_coded{padding-top: 32px;font-weight: 900; color: white;}
+.logo_content{font-size:5px; font-weight: 200;}
+.h-4_our_company{
+    color: brown;
+}
+.hr_footer{
+    background-color: brown;
+    height: 6px;
 }
